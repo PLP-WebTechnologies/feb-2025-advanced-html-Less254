@@ -12,16 +12,7 @@ Apply multimedia elements such as audio and video.
 - Add an external image from pexels.com
 - Add a table of 5 contacts with; name, address, mobile and emails
 - Add a registration form
-
->[!NOTE]
->  The registration form should have:
->- Name, email, password, and date fields.
->- A dropdown, radio buttons, and checkboxes.
->- Proper labels and placeholders.
->- Required fields and validation attributes.
->- Ensure proper indentation and commenting.
-
-
+ 
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +37,6 @@ Apply multimedia elements such as audio and video.
         <input type="password" required placeholder="password">
         <label for="birthday">Birthday:</label>
         <input type="date" id="birthday" name="birthday">
-
         <label for="course">Choose a Course:</label>
         <select name="course">
           <option>AI for Software</option>
@@ -54,11 +44,8 @@ Apply multimedia elements such as audio and video.
           <option>Tester</option>
           <option>App developer</option>
         </select>
-
         <input type="checkbox" value="agree" required> I agree to the terms and conditions 
-
         <input type="radio" value="disagree" required> I disagree to the terms and conditions 
-
         <textarea placeholder="Your Comments"></textarea>
       </form>
     <table>
@@ -70,7 +57,6 @@ Apply multimedia elements such as audio and video.
           <td>Gift</td>
           <td>Valerie</td>
         </tr>
-
         <tr>
           <th>EMAIL</th>
           <td>odhiambolester@gmail.com</td>
@@ -79,7 +65,6 @@ Apply multimedia elements such as audio and video.
           <td>giftshipalana45@gmail.com</td>
           <td>valeriengwu@gmail.com</td>
         </tr>
-
         <tr>
           <th>MOBILE</th>
           <td>0123456789</td>
@@ -88,7 +73,6 @@ Apply multimedia elements such as audio and video.
           <td>0123456789</td>
           <td>0123456789</td>
         </tr>
-
         <tr>
           <th>ADDRESS</th>
           <td>00100</td>
@@ -102,6 +86,14 @@ Apply multimedia elements such as audio and video.
       <video width="400" height="300" controls><source src="COSTA_RICA_IN_4K_60fps_HDR_ULTRA_HD.mp4" type="video/mp4"></video>
 </body>
 </html>
+
+>[!NOTE]
+>  The registration form should have:
+>- Name, email, password, and date fields.
+>- A dropdown, radio buttons, and checkboxes.
+>- Proper labels and placeholders.
+>- Required fields and validation attributes.
+>- Ensure proper indentation and commenting.
 
 
 # Tasks
